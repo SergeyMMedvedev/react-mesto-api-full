@@ -1,0 +1,11 @@
+.popup__title_infoTooltip {
+  margin: 0 0 10px 0;
+}
+
+@media (max-width: 480px) {
+  .popup__title_infoTooltip {
+    min-width: 244px;
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+}

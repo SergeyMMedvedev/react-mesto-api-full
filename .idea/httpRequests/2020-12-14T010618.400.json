@@ -1,0 +1,1 @@
+{"statusCode":400,"error":"Bad Request","message":"celebrate request validation failed","validation":{"params":{"source":"params","keys":["cardId"],"message":"\"cardId\" with value \"5fd72c0101ed70230401027a0\" fails to match the required pattern: /^[0-9a-f]{24}$/"}}}

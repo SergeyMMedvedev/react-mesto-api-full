@@ -1,0 +1,11 @@
+.header__user-email {
+  margin: auto 24px;
+}
+
+@media (max-width: 480px) {
+  .header__user-email {
+    padding-bottom: 18px;
+    margin: 0 24px;
+  }
+}
+

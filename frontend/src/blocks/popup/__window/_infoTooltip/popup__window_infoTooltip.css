@@ -1,0 +1,10 @@
+.popup__window_infoTooltip {
+  min-width: 280px;
+  text-align: center;
+}
+
+@media (max-width: 480px) {
+  .popup__window_infoTooltip {
+    padding: 20px;
+  }
+}

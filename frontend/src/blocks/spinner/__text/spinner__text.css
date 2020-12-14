@@ -1,0 +1,5 @@
+.spinner__text {
+  padding-top: 60px;
+  transform: translateX(-15px);
+  color: gray;
+}

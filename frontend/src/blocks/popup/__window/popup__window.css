@@ -1,0 +1,20 @@
+.popup__window {
+  width: 430px;
+  min-width: 240px;
+  background-color: #FFFFFF;
+  padding: 36px;
+  border-radius: 10px;
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  margin-right: 50px;
+  margin-left: 50px;
+  opacity: 0;
+  transition: visibility .5s, opacity .5s linear;
+}
+
+@media (max-width: 364px) {
+  .popup__window {
+    padding: 20px;
+  }
+}

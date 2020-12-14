@@ -1,0 +1,15 @@
+@import url(./__inner/spinner__inner.css);
+@import url(./__text/spinner__text.css);
+
+.spinner {
+  width: 3em;
+  height: 3em;
+  margin: 50px auto;
+  border-radius: 50%;
+  display: none;
+}
+
+@keyframes spinner-circle {
+  0% { transform: rotate(-180deg) }
+  100% { transform: rotate(180deg) }
+}

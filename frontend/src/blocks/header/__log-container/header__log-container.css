@@ -1,0 +1,7 @@
+.header__log-container {
+  display: flex;
+  line-height: 1.22;
+  font-size: 18px;
+  overflow: hidden;
+  padding-top: 5px;
+}

@@ -1,0 +1,21 @@
+.profile__avatar-edit {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 122px;
+  height: 122px;
+  border-radius: 50%;
+  background-color: rgba(0,0,0,.0);
+  transition-property: background-color, background-image;
+  transition-duration: .25s;
+  transition-timing-function: ease-in;
+  background-image: url(../../../images/EditButtonAvatarUnhover.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.profile__avatar-edit:hover {
+  background-color: rgba(0,0,0,.5);
+  cursor: pointer;
+  background-image: url(../../../images/EditButtonAvatar.svg);
+}

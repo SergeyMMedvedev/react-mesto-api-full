@@ -1,0 +1,39 @@
+.register__input {
+  border: none;
+  color: #ccc;
+  border-bottom: 2px solid #ccc;
+  min-height: 40px;
+  font-size: 14px;
+  line-height: 1.21;
+  min-width: 358px;
+  box-sizing: border-box;
+  display: block;
+  background-color: black;
+  margin: 0 auto 15px auto;
+}
+
+.register__input:focus {
+  outline: none !important;
+}
+
+.register__input:-webkit-autofill,
+.register__input:-webkit-autofill:hover, 
+.register__input:-webkit-autofill:focus, 
+.register__input:-webkit-autofill:active {
+  box-shadow: 0 0 0 30px black inset !important;
+  color: #ccc;
+  -webkit-text-fill-color: #ccc;
+
+}
+
+.register__input:-webkit-autofill::first-line {
+  font-size: 14px;
+  line-height: 1.21;
+  font-family: 'Inter', Arial, sans-serif;
+}
+
+@media (max-width: 480px) {
+  .register__input {
+    min-width: 260px;
+  }
+}

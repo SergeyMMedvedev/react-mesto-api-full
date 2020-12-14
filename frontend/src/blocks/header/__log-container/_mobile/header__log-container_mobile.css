@@ -1,0 +1,15 @@
+.header__log-container_mobile {
+  border-bottom: 1px solid rgba(84, 84, 84, .7);
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 0;
+  transform: translate(0, -142px);
+  transition: transform .2s ease-in-out, height .2s ease-in-out;
+
+}
+
+.header__log-container_mobile-active {
+  height: 142px;
+  transform: translate(0, 0);
+}

@@ -1,0 +1,15 @@
+.header__link {
+  color: #fff;
+  text-decoration: none;
+  transition: opacity .2s ease-in;
+  font-size: 18px;
+  padding-top: 5px;
+}
+
+.header__link:link, .header__link:visited {
+  color: #fff
+}
+.header__link:hover {
+  color: #fff;
+  opacity: .6;
+}

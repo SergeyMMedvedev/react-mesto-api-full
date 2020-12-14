@@ -1,0 +1,13 @@
+.register__login-text {
+  color: #fff;
+  text-decoration: none;
+  margin: 15px 0 0 0;
+  transition: opacity .2s ease-in;
+  font-size: 14px;
+}
+
+@media (max-width: 480px) {
+  .register__login-text {
+    margin-top: 20px;
+  }
+}

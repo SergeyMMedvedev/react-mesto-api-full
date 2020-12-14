@@ -1,0 +1,8 @@
+.popup__picture-container {
+  box-sizing: border-box;
+  position: relative;
+  display: block;
+  opacity: 0;
+  transition: visibility .5s, opacity .5s linear;
+}
+

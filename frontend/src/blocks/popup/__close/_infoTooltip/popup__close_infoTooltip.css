@@ -1,0 +1,9 @@
+@media (max-width: 480px) {
+  .popup__close_infoTooltip {
+    width: 42px;
+    height: 42px;
+    top: -62px;
+    left: 50%;
+    transform: translate(-21px, 0);
+  }
+}

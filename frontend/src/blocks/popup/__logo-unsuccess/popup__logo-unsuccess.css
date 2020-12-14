@@ -1,0 +1,6 @@
+.popup__logo-unsuccess {
+  background-image: url('../../../images/infoTooltip-logo-unsuccess.svg');
+  width: 120px;
+  height: 120px;
+  margin: 10px auto 32px auto;
+}

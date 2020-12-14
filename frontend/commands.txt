@@ -1,0 +1,60 @@
+npm init -y
+
+npm install eslint --save-dev
+
+npm install express
+
+http://localhost:3000
+
+http://localhost:3000/users
+
+http://localhost:3000/users/d285e3dceed844f902650f40
+
+PORT=3000 BASE_PATH=http://localhost:3000 node app.js
+
+npm install nodemon -D
+
+npm run start
+
+npm run dev
+
+node --inspect app.js
+
+node app.js
+
+git reset --hard HEAD
+
+
+
+ssh praktikum@130.193.43.230
+Ctrl+D - выход
+130.193.43.230
+
+
+/home/praktikum
+/home/praktikum/react-mesto-api-full
+/home/praktikum/react-mesto-api-full/news-frontend
+
+cd react-mesto-api-full
+http://130.193.43.230:3000/users
+
+http://medvedevmesto.students.nomoredomains.icu:3000
+http://www.medvedevmesto.students.nomoredomains.icu:3000
+
+https://medvedevmesto.students.nomoredomains.icu
+https://www.medvedevmesto.students.nomoredomains.icu
+
+
+#обновление сертификата
+sudo certbot renew --pre-hook "service nginx stop" --post-hook "service nginx start"
+sudo systemctl restart nginx
+
+# обновление с гитхаба
+git pull origin main
+pm2 restart app
+# можно деплоить не мейн
+
+scp -r ./build/* praktikum@130.193.43.230:/home/praktikum/mesto-frontend
+
+
+udo nano /etc/nginx/sites-enabled/default

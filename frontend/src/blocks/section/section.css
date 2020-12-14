@@ -1,0 +1,11 @@
+.section {
+  box-sizing: border-box;
+  padding: 0 19px;
+}
+
+@media (max-width: 338px) {
+  .section {
+    padding-left: calc((100% - 282px)/2);
+    padding-right: calc((100% - 282px)/2);
+  }
+}

@@ -1,0 +1,14 @@
+.register__login-link {
+  color: #fff;
+  text-decoration: none;
+  transition: opacity .2s ease-in;
+  font-size: 14px;
+}
+
+.register__login-link:link, .register__login-link:visited {
+  color: #fff
+}
+.register__login-link:hover {
+  color: #fff;
+  opacity: .6;
+}

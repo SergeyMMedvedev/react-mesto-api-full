@@ -1,0 +1,30 @@
+.register__submit-button {
+  background-color: #FFF;
+  color: #000;
+  border: none;
+  border-radius: 2px;
+  min-width: 358px;
+  min-height: 50px;
+  transition: opacity .2s ease-in;
+  font-size: 18px;
+  margin-top: 206px;
+
+}
+
+.register__submit-button:hover {
+ cursor: pointer;
+ opacity: .85;
+}
+
+.register__submit-button:active, .register__submit-button:focus {
+  outline: none;
+}
+
+@media (max-width: 480px) {
+  .register__submit-button {
+    min-width: 260px;
+    font-size: 16px;
+    margin-top: 158px;
+
+  }
+}

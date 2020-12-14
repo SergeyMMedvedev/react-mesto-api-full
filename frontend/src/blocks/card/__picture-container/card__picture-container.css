@@ -1,0 +1,6 @@
+.card__picture-container {
+  border-radius: 10px 10px 0 0;
+  width: 282px;
+  height: 282px;
+  background-color: rgb(211, 210, 210);
+}
