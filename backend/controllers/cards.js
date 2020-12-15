@@ -1,4 +1,5 @@
-const MyError = require('../errors/myError');
+const BadRequesError = require('../errors/bad-request-error');
+const NotFoundError = require('../errors/not-found-error');
 const Card = require('../models/card');
 
 module.exports.getCards = (req, res, next) => {
@@ -11,6 +12,9 @@ module.exports.getCards = (req, res, next) => {
 
 module.exports.postCards = (req, res, next) => {
   const { name, link, owner = req.user._id } = req.body;
+  if (!name || !link) {
+    throw new BadRequesError('name и link должны быть заполнены');
+  }
   Card.create({ name, link, owner })
     .then((card) => {
       res.send(card);
@@ -19,12 +23,11 @@ module.exports.postCards = (req, res, next) => {
 };
 
 module.exports.deleteCard = (req, res, next) => {
-  console.log('deleteCard');
   const { id } = req.params;
   Card.findByIdAndRemove(id)
     .then((card) => {
       if (!card) {
-        throw new MyError(404, 'Нет карточки с таким id');
+        throw new NotFoundError('Нет карточки с таким id');
       }
       return res.status(200).send(card);
     })
@@ -39,7 +42,7 @@ module.exports.likeCard = (req, res, next) => {
   )
     .then((card) => {
       if (!card) {
-        throw new MyError(404, 'Нет карточки с таким id');
+        throw new NotFoundError('Нет карточки с таким id');
       }
       return res.send(card);
     })
@@ -54,7 +57,7 @@ module.exports.dislikeCard = (req, res, next) => {
   )
     .then((card) => {
       if (!card) {
-        throw new MyError(404, 'Нет карточки с таким id');
+        throw new NotFoundError('Нет карточки с таким id');
       }
       return res.send(card);
     })

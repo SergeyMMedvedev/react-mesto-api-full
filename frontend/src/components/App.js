@@ -136,12 +136,6 @@ function App() {
   }
 
   function handleCardLike(card) {
-    console.log('card', card)
-    console.log('card.likes', card.likes)
-    console.log('card.likes._id', card.likes._id)
-    console.log('currentUser._id', currentUser._id)
-    console.log('card.likes._id == currentUser._id', card.likes._id == currentUser._id)
-    // const isLiked = card.likes.some((i) => i._id == currentUser._id);
     const isLiked = card.likes.some((i) => i === currentUser._id);
     if (isLiked) {
       api.removeLike(card).then((newCard) => {
@@ -177,17 +171,11 @@ function App() {
           const jwt = data.token;
           localStorage.setItem('jwt', jwt);
           api.headers.authorization = `Bearer ${localStorage.getItem('jwt')}`;
-          console.log('api',api);
-          console.log('api.headers',api.headers);
-          console.log('api.headers.authorization',api.headers.authorization);
-
           setLoggedIn(true);
           setEmail(identifier);
-          // history.push('/');
         }
       })
       .catch((e) => {
-        // setInfoTooltipText(e);
         setInfoTooltipText('Что-то пошло не так! Попробуйте еще раз.');
         setIsSuccessSignUp(false)
         setIsOpenInfoTooltip(true);
@@ -328,8 +316,6 @@ function App() {
             isOpen={isOpenInfoTooltip}
             onClose={closeAllPopups}
             isSuccessSignUp={isSuccessSignUp}
-            // successSignUpText={'Вы успешно зарегистрировались!'}
-            // unsuccessSignUpText={'Что-то пошло не так! Попробуйте еще раз.'}
             infoTooltipText={infoTooltipText}
           />
 

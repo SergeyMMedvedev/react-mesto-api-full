@@ -13,7 +13,9 @@ class Auth {
       body: JSON.stringify({ email, password })
     })
     const response = await loadingRegisterInfo;
-    if (!response.ok) { return Promise.reject(`Ошибка: ${response.status}`) }
+    if (!response.ok) {
+      return Promise.reject(`Ошибка: ${response.status}`)
+    }
     const newUserRegistrationData = await response.json();
     return new Promise((resolve) => {
       resolve(newUserRegistrationData);
@@ -28,9 +30,8 @@ class Auth {
     })
     const response = await loadingAuthorizeInfo;
     if (!response.ok) {
-      const userData = await response.json();
-      return Promise.reject(`Ошибка: ${response.status} ${userData.message}`)
-      // return Promise.reject(`Ошибка: ${response.status}`)
+      const authorizeData = await response.json();
+      return Promise.reject(`Ошибка: ${response.status} ${authorizeData.message}`)
     }
     const authorizeData = await response.json();
     return new Promise((resolve) => {
@@ -51,14 +52,12 @@ class Auth {
     if (!response.ok) { return Promise.reject(`Ошибка: ${response.status}`) }
     const selfData = await response.json();
     return new Promise((resolve) => {
-      console.log('selfData', selfData)
       resolve(selfData);
     })
   }
 }
 
 const auth = new Auth({
-  // baseUrl: `https://auth.nomoreparties.co`,
   baseUrl: BASE_URL,
   headers: {
     'Accept': 'application/json',

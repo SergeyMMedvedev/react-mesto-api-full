@@ -24,6 +24,12 @@ app.listen(PORT, () => {
   console.log(`App listening on port ${PORT}`);
 });
 
+app.get('/crash-test', () => {
+  setTimeout(() => {
+    throw new Error('Сервер сейчас упадёт');
+  }, 0);
+});
+
 app.use(requestLogger);
 
 app.use(routes);
@@ -43,5 +49,5 @@ app.use((err, req, res, next) => {
       ? 'Ошибка на сервере'
       : message,
   });
-  // res.status(statusCose).send({ message: 'Ошибка на сервере' });
+  next();
 });
