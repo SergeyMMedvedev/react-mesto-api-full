@@ -8,6 +8,7 @@
 
 ### **Ссылки**
 Приложение размещено на сервере облачной платформы Yandex.Cloud.
+
 **Доступные ссылки:**
 * **Фронтэнд проекта:**
 [https://medvedevmesto.students.nomoredomains.icu]
