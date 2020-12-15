@@ -50,11 +50,12 @@ module.exports.createUser = (req, res, next) => {
   if (!email || !password) {
     // return res.status(400).send({ message: 'email и password должны быть заполнены' });
     throw new MyError(400, 'email и password должны быть заполнены');
-  } else if (password) {
-    if (!isStrongPassword(password)) {
-      throw new MyError(400, 'пароль не достаточно надежный');
-    }
   }
+  //  else if (password) {
+  //   if (!isStrongPassword(password)) {
+  //     throw new MyError(400, 'пароль не достаточно надежный');
+  //   }
+  // }
 
   User.findOne({ email }).then((user) => {
     if (user) {

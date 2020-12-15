@@ -1,3 +1,73 @@
+POST http://localhost:3000/signup
+Accept: application/json
+Cache-Control: no-cache
+Content-type: application/json
+
+{
+  "email": "asd9@asd99.com",
+  "password": "aaaaaaaaa"
+}
+
+<> 2020-12-15T123930.201.json
+
+###
+
+POST http://localhost:3000/signup
+Accept: application/json
+Cache-Control: no-cache
+Content-type: application/json
+
+{
+  "email": "asd9@asd9.com",
+  "password": "aaaaaaaaa"
+}
+
+<> 2020-12-15T123925.409.json
+
+###
+
+POST http://localhost:3000/signup
+Accept: application/json
+Cache-Control: no-cache
+Content-type: application/json
+
+{
+  "email": "asd9@asd9.com",
+  "password": "aaaaaaaaa"
+}
+
+<> 2020-12-15T123309.400.json
+
+###
+
+POST http://localhost:3000/signup
+Accept: application/json
+Cache-Control: no-cache
+Content-type: application/json
+
+{
+  "email": "asd9@asd9.com",
+  "password": "aaaaaaaa"
+}
+
+<> 2020-12-15T123305.400.json
+
+###
+
+POST http://localhost:3000/signup
+Accept: application/json
+Cache-Control: no-cache
+Content-type: application/json
+
+{
+  "email": "asd9@asd9.com",
+  "password": ""
+}
+
+<> 2020-12-15T123208.400.json
+
+###
+
 POST http://api.medvedevmesto.students.nomoredomains.icu/signin
 Accept: application/json
 Cache-Control: no-cache
@@ -559,64 +629,6 @@ Content-type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmQ2NDA3NGRhNTVhZTQyZGNjYTQ2ZGQiLCJpYXQiOjE2MDc5NDY1OTEsImV4cCI6MTYwODU1MTM5MX0.rb2tHbwrEtLczZv5pu93O8sOhxInjcbv4wfFLPZm6Ac
 
 <> 2020-12-14T025013.200.json
-
-###
-
-POST http://localhost:3000/signin
-Accept: application/json
-Cache-Control: no-cache
-Content-type: application/json
-
-{
-  "email": "a8@a8.com",
-  "password": "a8@a8.com"
-}
-
-<> 2020-12-14T024951.200.json
-
-###
-
-GET http://localhost:3000/users/me
-Accept: application/json
-Cache-Control: no-cache
-Content-type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmQ2NDA3NGRhNTVhZTQyZGNjYTQ2ZGQiLCJpYXQiOjE2MDc4NzgyMTQsImV4cCI6MTYwODQ4MzAxNH0.wf3BGLNQN0Nd2v2njN0wOFbmBnoI4_noxNm2Fb3HLFk
-
-<> 2020-12-14T024832.401.json
-
-###
-
-GET http://localhost:3000/users/me
-Accept: application/json
-Cache-Control: no-cache
-Content-type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmQ2NDA3NGRhNTVhZTQyZGNjYTQ2ZGQiLCJpYXQiOjE2MDc4NzgyMTQsImV4cCI6MTYwODQ4MzAxNH0.wf3BGLNQN0Nd2v2njN0wOFbmBnoI4_noxNm2Fb3HLFk
-
-<> 2020-12-14T024829.401.json
-
-###
-
-GET http://localhost:3000/users/me
-Accept: application/json
-Cache-Control: no-cache
-Content-type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmQ1M2MxODkzZjI3MjNlOGNmNDQ4NGEiLCJpYXQiOjE2MDc5NDY0OTEsImV4cCI6MTYwODU1MTI5MX0.FxV1QIHRyRlsdRCOmWflPMoPxRo-RzYj21nLOpoeLSE
-
-<> 2020-12-14T024823.200.json
-
-###
-
-POST http://localhost:3000/signin
-Accept: application/json
-Cache-Control: no-cache
-Content-type: application/json
-
-{
-  "email": "a7@a7.com",
-  "password": "a7@a7.com"
-}
-
-<> 2020-12-14T024811.200.json
 
 ###
 
