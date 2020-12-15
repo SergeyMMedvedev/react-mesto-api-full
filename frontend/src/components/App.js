@@ -176,13 +176,20 @@ function App() {
         if (data.token) {
           const jwt = data.token;
           localStorage.setItem('jwt', jwt);
+          api.headers.authorization = `Bearer ${localStorage.getItem('jwt')}`;
+          console.log('api',api);
+          console.log('api.headers',api.headers);
+          console.log('api.headers.authorization',api.headers.authorization);
+
           setLoggedIn(true);
           setEmail(identifier);
           // history.push('/');
         }
       })
       .catch((e) => {
-        setInfoTooltipText(e);
+        // setInfoTooltipText(e);
+        setInfoTooltipText('Что-то пошло не так! Попробуйте еще раз.');
+        setIsSuccessSignUp(false)
         setIsOpenInfoTooltip(true);
         console.log(e)
       });

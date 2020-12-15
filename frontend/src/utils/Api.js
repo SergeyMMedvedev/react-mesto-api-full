@@ -1,7 +1,8 @@
 // import { TOKEN } from './utils';
 // import { GROUP_ID } from './utils';
-const BASE_URL = 'http://localhost:3000';
-const TOKEN = localStorage.getItem('jwt');
+// const BASE_URL = 'http://localhost:3000';
+// const TOKEN = localStorage.getItem('jwt');
+import { BASE_URL } from './utils';
 
 
 

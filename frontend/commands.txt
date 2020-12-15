@@ -30,6 +30,10 @@ ssh praktikum@130.193.43.230
 Ctrl+D - выход
 130.193.43.230
 
+Github username:
+SergeyMMedvedev
+password
+1111m1i2s3a4dubcG
 
 /home/praktikum
 /home/praktikum/react-mesto-api-full
@@ -57,4 +61,4 @@ pm2 restart app
 scp -r ./build/* praktikum@130.193.43.230:/home/praktikum/mesto-frontend
 
 
-udo nano /etc/nginx/sites-enabled/default
+sudo nano /etc/nginx/sites-enabled/default
