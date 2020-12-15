@@ -1,10 +1,4 @@
-// import { TOKEN } from './utils';
-// import { GROUP_ID } from './utils';
-// const BASE_URL = 'http://localhost:3000';
-// const TOKEN = localStorage.getItem('jwt');
 import { BASE_URL } from './utils';
-
-
 
 class Api {
   constructor(options) {
@@ -116,7 +110,6 @@ class Api {
 }
 
 const api = new Api({
-  // baseUrl: `https://mesto.nomoreparties.co/v1/${GROUP_ID}`,
   baseUrl: BASE_URL,
   headers: {
     authorization: `Bearer ${localStorage.getItem('jwt')}`,

@@ -5,6 +5,7 @@ const auth = require('../middlewares/auth');
 const {
   getUsers,
   getUser,
+  getSelfInfo,
   createUser,
   patchUser,
   patchUserAvatar,
@@ -35,7 +36,15 @@ router.use(auth);
 
 router.get('/users', getUsers);
 
-router.get('/users/me', getUser);
+router.get('/users/me', getSelfInfo);
+
+router.get('/users/:id',
+  celebrate({
+    params: Joi.object().keys({
+      id: Joi.string().regex(/^[0-9a-f]{24}$/),
+    }),
+  }),
+  getUser);
 
 router.patch('/users/me',
   celebrate({

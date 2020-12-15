@@ -1,3 +1,159 @@
+GET http://localhost:3000/users
+Accept: application/json
+Cache-Control: no-cache
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmQ4OWQ3NjZiN2ViMTM2YjhlMGNkZTgiLCJpYXQiOjE2MDgwNTk4NTksImV4cCI6MTYwODY2NDY1OX0.92kBgpWDSqohAPrRQfssZIb9erSgKn8k-Ec_7lwHCI4
+
+<> 2020-12-15T113505.200.json
+
+###
+
+GET http://localhost:3000/users/5fd798c614d6ef2218fb822
+Accept: application/json
+Cache-Control: no-cache
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmQ4OWQ3NjZiN2ViMTM2YjhlMGNkZTgiLCJpYXQiOjE2MDgwNTk4NTksImV4cCI6MTYwODY2NDY1OX0.92kBgpWDSqohAPrRQfssZIb9erSgKn8k-Ec_7lwHCI4
+
+<> 2020-12-15T102432.400.json
+
+###
+
+GET http://localhost:3000/users/5fd798c614d6ef2218fb8222
+Accept: application/json
+Cache-Control: no-cache
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmQ4OWQ3NjZiN2ViMTM2YjhlMGNkZTgiLCJpYXQiOjE2MDgwNTk4NTksImV4cCI6MTYwODY2NDY1OX0.92kBgpWDSqohAPrRQfssZIb9erSgKn8k-Ec_7lwHCI4
+
+<> 2020-12-15T102237.200.json
+
+###
+
+GET http://localhost:3000/users/5fd798c614d6ef2218fb822f
+Accept: application/json
+Cache-Control: no-cache
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmQ4OWQ3NjZiN2ViMTM2YjhlMGNkZTgiLCJpYXQiOjE2MDgwNTk4NTksImV4cCI6MTYwODY2NDY1OX0.92kBgpWDSqohAPrRQfssZIb9erSgKn8k-Ec_7lwHCI4
+
+<> 2020-12-15T102232.404.json
+
+###
+
+GET http://localhost:3000/users/5fd798c614d6ef2218fb82222
+Accept: application/json
+Cache-Control: no-cache
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmQ4OWQ3NjZiN2ViMTM2YjhlMGNkZTgiLCJpYXQiOjE2MDgwNTk4NTksImV4cCI6MTYwODY2NDY1OX0.92kBgpWDSqohAPrRQfssZIb9erSgKn8k-Ec_7lwHCI4
+
+<> 2020-12-15T102224.400.json
+
+###
+
+GET http://localhost:3000/users/5fd798c614d6ef2218fb8222
+Accept: application/json
+Cache-Control: no-cache
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmQ4OWQ3NjZiN2ViMTM2YjhlMGNkZTgiLCJpYXQiOjE2MDgwNTk4NTksImV4cCI6MTYwODY2NDY1OX0.92kBgpWDSqohAPrRQfssZIb9erSgKn8k-Ec_7lwHCI4
+
+<> 2020-12-15T102221.200.json
+
+###
+
+GET http://localhost:3000/users/5fd798c614d6ef2218fb822
+Accept: application/json
+Cache-Control: no-cache
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmQ4OWQ3NjZiN2ViMTM2YjhlMGNkZTgiLCJpYXQiOjE2MDgwNTk4NTksImV4cCI6MTYwODY2NDY1OX0.92kBgpWDSqohAPrRQfssZIb9erSgKn8k-Ec_7lwHCI4
+
+<> 2020-12-15T102217.400.json
+
+###
+
+GET http://localhost:3000/users/5fd798c614d6ef2218fb8222
+Accept: application/json
+Cache-Control: no-cache
+Content-type: application/json
+Authorization: Bearer seyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmQ4OWQ3NjZiN2ViMTM2YjhlMGNkZTgiLCJpYXQiOjE2MDgwNTk4NTksImV4cCI6MTYwODY2NDY1OX0.92kBgpWDSqohAPrRQfssZIb9erSgKn8k-Ec_7lwHCI4
+
+<> 2020-12-15T102212.401.json
+
+###
+
+GET http://localhost:3000/users/5fd798c614d6ef2218fb8222
+Accept: application/json
+Cache-Control: no-cache
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmQ4OWQ3NjZiN2ViMTM2YjhlMGNkZTgiLCJpYXQiOjE2MDgwNTk4NTksImV4cCI6MTYwODY2NDY1OX0.92kBgpWDSqohAPrRQfssZIb9erSgKn8k-Ec_7lwHCI4
+
+<> 2020-12-15T102205.200.json
+
+###
+
+GET http://localhost:3000/users/me
+Accept: application/json
+Cache-Control: no-cache
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmQ4OWQ3NjZiN2ViMTM2YjhlMGNkZTgiLCJpYXQiOjE2MDgwNTk4NTksImV4cCI6MTYwODY2NDY1OX0.92kBgpWDSqohAPrRQfssZIb9erSgKn8k-Ec_7lwHCI4
+
+<> 2020-12-15T101751.200.json
+
+###
+
+POST http://localhost:3000/signin
+Accept: application/json
+Cache-Control: no-cache
+Content-type: application/json
+
+{
+  "email": "asd9@asd999.com",
+  "password": "asd9@asd999.com"
+}
+
+<> 2020-12-15T101739.200.json
+
+###
+
+GET http://localhost:3000/users/me
+Accept: application/json
+Cache-Control: no-cache
+Content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmQ2NDA3NGRhNTVhZTQyZGNjYTQ2ZGQiLCJpYXQiOjE2MDc4NzgyMTQsImV4cCI6MTYwODQ4MzAxNH0.wf3BGLNQN0Nd2v2njN0wOFbmBnoI4_noxNm2Fb3HLFk
+
+<> 2020-12-15T101732.401.json
+
+###
+
+POST http://medvedevmesto.students.nomoredomains.icu/signup
+Accept: application/json
+Cache-Control: no-cache
+Content-type: application/json
+
+{
+  "email": "asd9@asd9.com",
+  "password": "Asd9@asd9.com"
+}
+
+<> 2020-12-15T081357.405.html
+
+###
+
+GET https://api.medvedevmesto.students.nomoredomains.icu/crash-test
+Accept: application/json
+Cache-Control: no-cache
+Content-type: application/json
+
+<> 2020-12-15T070327.502.html
+
+###
+
+GET https://medvedevmesto.students.nomoredomains.icu/crash-test
+Accept: application/json
+Cache-Control: no-cache
+Content-type: application/json
+
+<> 2020-12-15T070236.200.html
+
+###
+
 GET http://localhost:3000/crash-test
 Accept: application/json
 Cache-Control: no-cache
@@ -398,198 +554,6 @@ Content-type: application/json
 Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmQ3OGY0MWEyOGFiNDE2MTA4ZjQ4ZTQiLCJpYXQiOjE2MDc5NjI0NDEsImV4cCI6MTYwODU2NzI0MX0.Up72e0VLpnc8HUaOJJ9GAcQFepk5ZZM-ve-iCIaQc-Y
 
 <> 2020-12-14T071451.200.json
-
-###
-
-GET http://api.medvedevmesto.students.nomoredomains.icu/users
-Accept: application/json
-Cache-Control: no-cache
-Content-type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmQ3OGY0MWEyOGFiNDE2MTA4ZjQ4ZTQiLCJpYXQiOjE2MDc5NjI0NDEsImV4cCI6MTYwODU2NzI0MX0.Up72e0VLpnc8HUaOJJ9GAcQFepk5ZZM-ve-iCIaQc-Y
-
-<> 2020-12-14T071433.200.json
-
-###
-
-POST http://api.medvedevmesto.students.nomoredomains.icu/signin
-Accept: application/json
-Cache-Control: no-cache
-Content-type: application/json
-
-{
-  "email": "asd9@asd9.com",
-  "password": "Asd9@asd9.com"
-}
-
-<> 2020-12-14T071357.200.json
-
-###
-
-POST http://api.medvedevmesto.students.nomoredomains.icu/signup
-Accept: application/json
-Cache-Control: no-cache
-Content-type: application/json
-
-{
-  "email": "asd9@asd9.com",
-  "password": "Asd9@asd9.com"
-}
-
-<> 2020-12-14T071350.201.json
-
-###
-
-POST http://api.medvedevmesto.students.nomoredomains.icu/signup
-Accept: application/json
-Cache-Control: no-cache
-Content-type: application/json
-
-{
-  "email": "asd9@asd9.com",
-  "password": "asd9@asd9.com"
-}
-
-<> 2020-12-14T071343.400.json
-
-###
-
-POST http://api.medvedevmesto.students.nomoredomains.icu/signup
-Accept: application/json
-Cache-Control: no-cache
-Content-type: application/json
-
-{
-  "email": "asd9@asd9.com",
-  "password": ""
-}
-
-<> 2020-12-14T071335.400.json
-
-###
-
-POST http://localhost:3000/signup
-Accept: application/json
-Cache-Control: no-cache
-Content-type: application/json
-
-{
-  "email": "asd9@asd9.com",
-  "password": ""
-}
-
-###
-
-GET http://api.medvedevmesto.students.nomoredomains.icu/users
-Accept: application/json
-Cache-Control: no-cache
-Content-type: application/json
-
-<> 2020-12-14T071243.401.json
-
-###
-
-POST http://localhost:3000/signin
-Accept: application/json
-Cache-Control: no-cache
-Content-type: application/json
-
-{
-  "email": "asd9@asd9.com",
-  "password": "Asd9@asd9.com"
-}
-
-<> 2020-12-14T070904.200.json
-
-###
-
-POST http://localhost:3000/signup
-Accept: application/json
-Cache-Control: no-cache
-Content-type: application/json
-
-{
-  "email": "asd9@asd9.com",
-  "password": "Asd9@asd9.com"
-}
-
-<> 2020-12-14T070858.201.json
-
-###
-
-POST http://localhost:3000/signup
-Accept: application/json
-Cache-Control: no-cache
-Content-type: application/json
-
-{
-  "email": "asd9@asd9.com",
-  "password": "asd9@asd9.com"
-}
-
-<> 2020-12-14T070852.400.json
-
-###
-
-POST http://localhost:3000/signup
-Accept: application/json
-Cache-Control: no-cache
-Content-type: application/json
-
-{
-  "email": "",
-  "password": ""
-}
-
-<> 2020-12-14T070837.400.json
-
-###
-
-GET http://localhost:3000/users
-Accept: application/json
-Cache-Control: no-cache
-Content-type: application/json
-
-<> 2020-12-14T070831.401.json
-
-###
-
-POST http://localhost:3000/signin
-Accept: application/json
-Cache-Control: no-cache
-Content-type: application/json
-
-{
-  "email": "asd9@asd9.com",
-  "password": "Asd9@asd9.com"
-}
-
-<> 2020-12-14T070824.401.json
-
-###
-
-POST http://localhost:3000/signin
-Accept: application/json
-Cache-Control: no-cache
-Content-type: application/json
-
-{
-  "email": "asd9@asd9.com",
-  "password": "Asd9@asd9.com"
-}
-
-###
-
-POST http://api.medvedevmesto.students.nomoredomains.icu/signin
-Accept: application/json
-Cache-Control: no-cache
-Content-type: application/json
-
-{
-  "email": "asd9@asd9.com",
-  "password": "Asd9@asd9.com"
-}
-
-<> 2020-12-14T064405.404.json
 
 ###
 
