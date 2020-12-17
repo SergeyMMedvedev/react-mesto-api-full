@@ -1,6 +1,7 @@
 const router = require('express').Router();
 const { celebrate, Joi } = require('celebrate');
 const isUserCardOwner = require('../middlewares/isUserCardOwner');
+const urlValidator = require('../utils/validators');
 
 const {
   getCards,
@@ -19,7 +20,7 @@ router.post('/cards',
   celebrate({
     body: Joi.object().keys({
       name: Joi.string().min(2).max(30).required(),
-      link: Joi.string().uri().required(),
+      link: Joi.string().custom(urlValidator).required(),
     }),
   }),
   postCards);

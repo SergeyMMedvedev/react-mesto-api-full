@@ -69,8 +69,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/routes/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/users.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/utils/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/utils/utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -1501,7 +1499,7 @@
       <workItem from="1608024712739" duration="15978000" />
       <workItem from="1608128107032" duration="19000" />
       <workItem from="1608147491672" duration="446000" />
-      <workItem from="1608214232277" duration="3102000" />
+      <workItem from="1608214232277" duration="3405000" />
     </task>
     <servers />
   </component>
