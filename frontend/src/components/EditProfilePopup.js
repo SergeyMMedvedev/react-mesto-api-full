@@ -1,6 +1,7 @@
 import React, { useState, useContext, useEffect } from 'react';
 import PopupWithForm from './PopupWithForm';
 import { CurrentUserContext } from '../contexts/CurrentUserContext';
+import { notOnlySpaceCheck } from '../utils/validators';
 
 function EditProfilePopup({
   isSaving,
@@ -20,13 +21,15 @@ function EditProfilePopup({
   function handleChangeName(e) {
     setName(e.target.value);
     setNameError(e.target.validationMessage);
-    setIsDisabled(Boolean(e.target.validationMessage) || Boolean(descriptionError));
+    notOnlySpaceCheck(e.target.validationMessage, e.target.value.trim().length, setNameError);
+    setIsDisabled(Boolean(e.target.validationMessage) || Boolean(descriptionError) || (e.target.value.trim().length < 2));
   }
 
   function handleChangeDescription(e) {
     setDescription(e.target.value);
     setdescriptionError(e.target.validationMessage);
-    setIsDisabled(Boolean(e.target.validationMessage) || Boolean(nameError));
+    notOnlySpaceCheck(e.target.validationMessage, e.target.value.trim().length, setdescriptionError);
+    setIsDisabled(Boolean(e.target.validationMessage) || Boolean(nameError) || (e.target.value.trim().length < 2));
   }
 
   function handleSubmit() {

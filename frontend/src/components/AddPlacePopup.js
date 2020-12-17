@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import PopupWithForm from './PopupWithForm';
+import { notOnlySpaceCheck } from '../utils/validators';
 
 function AddPlacePopup({
   isSaving,
@@ -17,7 +18,8 @@ function AddPlacePopup({
   function handleChangeTitle(e) {
     setTitle(e.target.value);
     setTitleError(e.target.validationMessage);
-    setIsDisabled(Boolean(e.target.validationMessage) || Boolean(linkError));
+    notOnlySpaceCheck(e.target.validationMessage, e.target.value.trim().length, setTitleError);
+    setIsDisabled(Boolean(e.target.validationMessage) || Boolean(linkError) || (e.target.value.trim().length < 2));
   }
 
   function handleChangeLink(e) {
