@@ -1,0 +1,1 @@
+{"statusCode":400,"error":"Bad Request","message":"celebrate request validation failed","validation":{"body":{"source":"body","keys":["email"],"message":"\"email\" is required"}}}

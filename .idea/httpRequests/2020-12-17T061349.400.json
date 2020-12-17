@@ -1,0 +1,1 @@
+{"statusCode":400,"error":"Bad Request","message":"celebrate request validation failed","validation":{"body":{"source":"body","keys":["name"],"message":"\"name\" failed custom validation because Cannot read property 'presence' of undefined"}}}

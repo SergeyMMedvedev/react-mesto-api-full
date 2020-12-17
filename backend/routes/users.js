@@ -1,6 +1,7 @@
 const router = require('express').Router();
 const { celebrate, Joi } = require('celebrate');
 const auth = require('../middlewares/auth');
+const urlValidator = require('../utils/validators');
 
 const {
   getUsers,
@@ -28,6 +29,7 @@ router.post('/signup',
       password: Joi.string().required().min(8),
       name: Joi.string().min(2).max(30),
       about: Joi.string().min(2).max(30),
+      avatar: Joi.string().custom(urlValidator),
     }),
   }),
   createUser);
@@ -41,7 +43,7 @@ router.get('/users/me', getSelfInfo);
 router.get('/users/:id',
   celebrate({
     params: Joi.object().keys({
-      id: Joi.string().regex(/^[0-9a-f]{24}$/),
+      id: Joi.string().regex(/^[0-9a-f]{24}$/).required(),
     }),
   }),
   getUser);
@@ -49,8 +51,10 @@ router.get('/users/:id',
 router.patch('/users/me',
   celebrate({
     body: Joi.object().keys({
-      name: Joi.string().min(2).max(30),
-      about: Joi.string().min(2).max(30),
+      name: Joi.string().min(2).max(30).trim()
+        .required(),
+      about: Joi.string().min(2).max(30).trim()
+        .required(),
     }),
   }),
   patchUser);
@@ -58,7 +62,7 @@ router.patch('/users/me',
 router.patch('/users/me/avatar',
   celebrate({
     body: Joi.object().keys({
-      avatar: Joi.string().uri(),
+      avatar: Joi.string().custom(urlValidator).required(),
     }),
   }),
   patchUserAvatar);
