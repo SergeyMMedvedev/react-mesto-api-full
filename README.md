@@ -11,16 +11,13 @@
 
 **Доступные ссылки:**
 * **Фронтэнд проекта:**
-
-https://medvedevmesto.students.nomoredomains.icu
-
-https://www.medvedevmesto.students.nomoredomains.icu
+  - https://medvedevmesto.students.nomoredomains.icu
+  - https://www.medvedevmesto.students.nomoredomains.icu
 
 * **API:**
 
-https://api.medvedevmesto.students.nomoredomains.icu
-
-https://www.api.medvedevmesto.students.nomoredomains.icu
+  - https://api.medvedevmesto.students.nomoredomains.icu
+  - https://www.api.medvedevmesto.students.nomoredomains.icu
 
 ### **О чем проект**
 Проект 'Mesto' включает в себя две части - фронтенд и бэкенд. Приложение обладает возможностью авторизации и регистрации пользователей. Основной функционал приложения доступен только авторизованным пользователям. Функционал включает возможность добавлять и удалять карточки с фотографиями, редактировать данные пользователя и автар, ставить и убирать лайки карточкам. 
