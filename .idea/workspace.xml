@@ -20,21 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c0f6f94b-086f-4893-b88f-5bd7ccc20b49" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-12-15T102432.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-12-15T113505.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-12-15T114407.200.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-12-15T114435.401.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-12-15T114537.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-12-16T103826.200.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-12-16T103840.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/2020-12-17T051523.400.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/httpRequests/http-requests-log.http" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/backend/routes/cards.js" beforeDir="false" afterPath="$PROJECT_DIR$/backend/routes/cards.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/.eslintcache" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/.eslintcache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/AddPlacePopup.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/AddPlacePopup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/components/EditProfilePopup.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/components/EditProfilePopup.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/utils/utils.js" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/utils/utils.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +39,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$APPLICATION_CONFIG_DIR$/scratches/rest-api_23.http" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../задачи/бэк-энд/спринты 12, 13, 14 алгоритмы и структуры данных" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -61,6 +47,90 @@
   <component name="RestClientSettings">
     <option name="REQUEST_HISTORY">
       <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/cards" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmQ4OWQ3NjZiN2ViMTM2YjhlMGNkZTgiLCJpYXQiOjE2MDgyMjMwODcsImV4cCI6MTYwODgyNzg4N30.p4iPLRBoIq8QAceizF6iU18MzWDTI37EtfgOkXXQRuo" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;name&quot;: &quot;  ss&quot;,&#10;  &quot;link&quot;: &quot;https://pictures.s3.yandex.net/resources/jacques-cousteau_1604399756.png&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/cards" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmQ4OWQ3NjZiN2ViMTM2YjhlMGNkZTgiLCJpYXQiOjE2MDgyMjMwODcsImV4cCI6MTYwODgyNzg4N30.p4iPLRBoIq8QAceizF6iU18MzWDTI37EtfgOkXXQRuo" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;name&quot;: &quot;  &quot;,&#10;  &quot;link&quot;: &quot;https://pictures.s3.yandex.net/resources/jacques-cousteau_1604399756.png&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+        <RestClientRequest>
+          <option name="httpMethod" value="POST" />
+          <option name="urlBase" value="http://localhost:3000/cards" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Cache-Control" />
+                <option name="value" value="no-cache" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Content-type" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+              <KeyValuePair>
+                <option name="key" value="Authorization" />
+                <option name="value" value="Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmQ4OWQ3NjZiN2ViMTM2YjhlMGNkZTgiLCJpYXQiOjE2MDgyMjMwODcsImV4cCI6MTYwODgyNzg4N30.p4iPLRBoIq8QAceizF6iU18MzWDTI37EtfgOkXXQRuo" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="haveTextToSend" value="true" />
+          <option name="textToSend" value="{&#10;  &quot;name&quot;: &quot;  s&quot;,&#10;  &quot;link&quot;: &quot;https://pictures.s3.yandex.net/resources/jacques-cousteau_1604399756.png&quot;&#10;}" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
         <RestClientRequest>
           <option name="httpMethod" value="POST" />
           <option name="urlBase" value="http://localhost:3000/cards" />
@@ -1345,79 +1415,6 @@
           <option name="textToSend" value="" />
           <option name="filesToSend" value="" />
         </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="http://localhost:3000/users/me" />
-          <option name="urlPath" value="" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Authorization" />
-                <option name="value" value="Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI1ZmQ2NDA3NGRhNTVhZTQyZGNjYTQ2ZGQiLCJpYXQiOjE2MDc4NzgyMTQsImV4cCI6MTYwODQ4MzAxNH0.wf3BGLNQN0Nd2v2njN0wOFbmBnoI4_noxNm2Fb3HLFk" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="https://api.medvedevmesto.students.nomoredomains.icu/crash-test" />
-          <option name="urlPath" value="" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
-        <RestClientRequest>
-          <option name="httpMethod" value="GET" />
-          <option name="urlBase" value="https://medvedevmesto.students.nomoredomains.icu/crash-test" />
-          <option name="urlPath" value="" />
-          <option name="headers">
-            <list>
-              <KeyValuePair>
-                <option name="key" value="Accept" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Cache-Control" />
-                <option name="value" value="no-cache" />
-              </KeyValuePair>
-              <KeyValuePair>
-                <option name="key" value="Content-type" />
-                <option name="value" value="application/json" />
-              </KeyValuePair>
-            </list>
-          </option>
-          <option name="textToSend" value="" />
-          <option name="filesToSend" value="" />
-        </RestClientRequest>
       </list>
     </option>
   </component>
@@ -1465,7 +1462,8 @@
       <workItem from="1608024712739" duration="15978000" />
       <workItem from="1608128107032" duration="19000" />
       <workItem from="1608147491672" duration="446000" />
-      <workItem from="1608214232277" duration="5022000" />
+      <workItem from="1608214232277" duration="5649000" />
+      <workItem from="1608225274801" duration="83000" />
     </task>
     <servers />
   </component>
@@ -1493,26 +1491,26 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="740" y="292" key="#rest-api_23#16/0.0.2048.1112@0.0.2048.1112" timestamp="1607902085286" />
-    <state x="911" y="142" key="FileChooserDialogImpl" timestamp="1608214411361">
+    <state x="721" y="80" key="FileChooserDialogImpl" timestamp="1608225356176">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="911" y="142" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1608214411361" />
-    <state width="2005" height="272" key="GridCell.Tab.0.bottom" timestamp="1608223109229">
+    <state x="721" y="80" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1608225356176" />
+    <state width="2005" height="272" key="GridCell.Tab.0.bottom" timestamp="1608225163728">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="272" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1608223109229" />
-    <state width="2005" height="272" key="GridCell.Tab.0.center" timestamp="1608223109229">
+    <state width="2005" height="272" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1608225163728" />
+    <state width="2005" height="272" key="GridCell.Tab.0.center" timestamp="1608225163728">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="272" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1608223109229" />
-    <state width="2005" height="272" key="GridCell.Tab.0.left" timestamp="1608223109229">
+    <state width="2005" height="272" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1608225163728" />
+    <state width="2005" height="272" key="GridCell.Tab.0.left" timestamp="1608225163728">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="272" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1608223109229" />
-    <state width="2005" height="272" key="GridCell.Tab.0.right" timestamp="1608223109229">
+    <state width="2005" height="272" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1608225163728" />
+    <state width="2005" height="272" key="GridCell.Tab.0.right" timestamp="1608225163728">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="2005" height="272" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1608223109229" />
+    <state width="2005" height="272" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1608225163728" />
     <state x="805" y="361" key="RestClientTextRequest" timestamp="1608214311511">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>

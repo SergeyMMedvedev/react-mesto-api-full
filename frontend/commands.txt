@@ -26,9 +26,12 @@ git reset --hard HEAD
 
 
 
-ssh praktikum@130.193.43.230
-Ctrl+D - выход
-130.193.43.230
+
+
+
+https://www.medvedevmesto.students.nomoredomains.icu
+
+
 
 Github username:
 SergeyMMedvedev

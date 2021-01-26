@@ -11,7 +11,8 @@ module.exports.getCards = (req, res, next) => {
 };
 
 module.exports.postCards = (req, res, next) => {
-  const { name, link, owner = req.user._id } = req.body;
+  const { name, link } = req.body;
+  const owner = req.user._id;
   if (!name || !link) {
     throw new BadRequesError('name и link должны быть заполнены');
   }

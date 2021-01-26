@@ -29,7 +29,7 @@ module.exports.createUser = (req, res, next) => {
     password,
   } = req.body;
   if (!email || !password) {
-    throw new BadRequesError(400, 'email и password должны быть заполнены');
+    throw new BadRequesError('email и password должны быть заполнены');
   }
 
   User.findOne({ email }).then((user) => {
